@@ -1,0 +1,40 @@
+/* This is a CSS comment */
+html {
+  background-color: #8cc0cb;
+  color: #fff;
+}
+
+h1, h2{
+  color: #fff;
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  line-height: 1;
+  text-shadow: 1px +2px 10px black;
+
+}
+
+p {
+  font-weight: 300;
+  font-size: 1rem;
+  font-family: 'Nunito', sans-serif;
+  font-style: italic; /*italic, normal*/
+  text-decoration: underline; /* left, centre, right, justify*/
+}
+
+ol {
+  font-weight: 300;
+  font-family: 'Nunito', sans-serif;
+  list-style-type: none; /* decimal, circle, lower-alpha, lower-roman, upper-alpha, uper-roman, square, disc, none */
+  padding: 0;
+}
+
+a {
+  color: #000;
+
+}
+
+a:hover {
+  color: orange;
+}
